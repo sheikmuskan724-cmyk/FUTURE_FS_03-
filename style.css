@@ -1,42 +1,79 @@
 body{
-    font-family: Arial, sans-serif;
     margin:0;
-    padding:0;
-}
-
-header{
-    background:#333;
+    font-family:Arial,sans-serif;
+    background:#111827;
     color:white;
-    padding:20px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    margin:10px;
-    text-decoration:none;
 }
 
 .hero{
+    height:100vh;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    padding:80px;
-    background:#f4f4f4;
 }
 
-section{
-    padding:30px;
+.hero h1{
+    font-size:60px;
 }
 
-input, textarea{
-    width:100%;
-    padding:10px;
-    margin:10px 0;
+.hero p{
+    font-size:22px;
 }
 
-button{
-    background:green;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    cursor:pointer;
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.menu{
+    padding:60px;
+    text-align:center;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1f2937;
+    width:220px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.card span{
+    color:#facc15;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.reviews{
+    padding:60px;
+    text-align:center;
+}
+
+.review-card{
+    background:#1f2937;
+    margin:20px auto;
+    max-width:500px;
+    padding:20px;
+    border-radius:15px;
+}
+
+.contact{
+    padding:60px;
+    text-align:center;
+    background:#0f172a;
 }
